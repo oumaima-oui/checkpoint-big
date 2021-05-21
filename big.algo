@@ -1,0 +1,24 @@
+FUNCTION function_name(tab: ARRAY_OF INTEGER,val:INTEGER) : BOOLEAN
+VAR
+    i : INTEGER;
+BEGIN
+    FOR i FROM 0 TO n-1   DO
+       IF (val=tab[i]) THEN
+           RETURN true
+       END_IF
+    END_FOR
+    RETURN false
+
+END
+FUNCTION function_name(tab: ARRAY_OF INTEGER,val:INTEGER) : BOOLEAN 
+VAR
+    i : INTEGER;
+BEGIN
+    FOR i FROM 0 TO n-1 STEP 2   DO
+       IF (val=tab[i]) THEN
+           RETURN true
+       END_IF
+    END_FOR
+    RETURN false
+
+END
